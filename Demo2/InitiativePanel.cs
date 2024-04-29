@@ -5,8 +5,6 @@ using TMPro;
 using Unity.Netcode;
 using System.Linq;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.ComponentModel;
 
 public class InitiativePanel : MonoBehaviour
 {
