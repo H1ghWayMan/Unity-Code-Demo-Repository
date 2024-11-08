@@ -78,7 +78,3 @@ The script relies on dependency injection to keep player movement, shooting, and
  - *Movement, Shooting, and Input Handlers:* Designed to abstract and organize input and actions, each handler can be modified or replaced without altering the core PlayerController logic.
  - *Events:* Uses custom events to trigger and manage power-ups and weapon cooldowns, keeping the controller script focused on state changes rather than event logic.
  - *Movement State Management:* Implements simple state machine specifically for handling movement actions like *Moving* or *Stationary*.
-
-##### Note:
-This project focuses solely on UI elements and does not include additional visual assets or gameplay mechanics. It is designed to integrate seamlessly into tabletop RPG sessions, enhancing the gameplay experience without disrupting the immersion of the narrative.
-
