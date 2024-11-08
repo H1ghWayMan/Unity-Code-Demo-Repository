@@ -63,3 +63,22 @@ This Unity script is part of a small project aimed at enhancing tabletop RPG ses
 
 ##### Note:
 This project focuses solely on UI elements and does not include additional visual assets or gameplay mechanics. It is designed to integrate seamlessly into tabletop RPG sessions, enhancing the gameplay experience without disrupting the immersion of the narrative.
+
+
+
+## Demo3 - Player Controller for *3D Game Prototype* (2024)
+
+This *PlayerController* script is part of a demo showcasing character control mechanics, event handling, and dependency injection through separate handler classes. The code provides player movement, camera control, and event tracking.
+
+**PlayerController.cs**  
+The script relies on dependency injection to keep player movement, shooting, and input handling modular, each managed by distinct handler classes injected at runtime. These handlers allow for easier customization and testing of individual player mechanics.
+
+### Features:
+
+ - *Movement, Shooting, and Input Handlers:* Designed to abstract and organize input and actions, each handler can be modified or replaced without altering the core PlayerController logic.
+ - *Events:* Uses custom events to trigger and manage power-ups and weapon cooldowns, keeping the controller script focused on state changes rather than event logic.
+ - *Movement State Management:* Implements simple state machine specifically for handling movement actions like *Moving* or *Stationary*.
+
+##### Note:
+This project focuses solely on UI elements and does not include additional visual assets or gameplay mechanics. It is designed to integrate seamlessly into tabletop RPG sessions, enhancing the gameplay experience without disrupting the immersion of the narrative.
+
